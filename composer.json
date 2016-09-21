@@ -1,0 +1,39 @@
+{
+	"name": "lionar/http",
+	"description": "Supporting tools and functions.",
+	"keywords": [ "Lionar", "Component", "Support" ],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Aron Wouters",
+			"email": "lionar@mail.com",
+			"role": "Developer"
+		}
+	],
+	"require" : {
+
+  	},
+	"require-dev": {
+		"lionar/testing": "*"
+	},
+	"autoload": {
+    	"psr-4": {
+			"Support\\": "source"
+   	 	},
+   	 	"files": [
+   	 		"helpers.php"
+   	 	]
+  	},
+	"autoload-dev": {
+    	"psr-4": {
+			"Support\\Tests\\"				: "tests"
+		}
+	},
+	 "suggest": {
+
+    },
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}

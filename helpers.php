@@ -1,5 +1,7 @@
 <?php
 
+namespace Support;
+
 /**
  * Return a copy of a given array without the specified keys.
  * 

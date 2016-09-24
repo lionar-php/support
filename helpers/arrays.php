@@ -1,6 +1,8 @@
 <?php
 
-namespace Support;
+namespace Support\Arrays;
+
+use function Support\Class\name;
 
 /**
  * Return a copy of a given array without the specified keys.
@@ -17,8 +19,19 @@ function array_except ( array $keys, array $array ) : array
 	return $array;
 }
 
-
-function is_serialized ( $value )
+/**
+ * Return all elements of a looper.
+ * 
+ * @param  Support\Arrays\Looper $looper 	The looper to return all elements from
+ * @return Support\Arrays\Looper    		The looper with all elements to loop over selected.
+ */
+function all ( Looper $looper )
 {
-	 return ( @unserialize ( $value ) !== false );
+	return $looper->all ( );
+}
+
+
+function on ( Looper $looper )
+{
+	return array ( ( strtolower ( name ( $looper ) ) => $looper );
 }

@@ -21,7 +21,9 @@
 			"Support\\": "source"
    	 	},
    	 	"files": [
-   	 		"helpers.php"
+   	 		"helpers/arrays.php",
+   	 		"helpers/class.php",
+   	 		"helpers/serialization.php"
    	 	]
   	},
 	"autoload-dev": {

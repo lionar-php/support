@@ -22,7 +22,7 @@
    	 	},
    	 	"files": [
    	 		"helpers/arrays.php",
-   	 		"helpers/class.php",
+   	 		"helpers/classes.php",
    	 		"helpers/serialization.php"
    	 	]
   	},

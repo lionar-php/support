@@ -2,7 +2,7 @@
 
 namespace Support\Arrays;
 
-use function Support\Class\name;
+use function Support\Classes\name;
 
 /**
  * Return a copy of a given array without the specified keys.
@@ -33,5 +33,6 @@ function all ( Looper $looper )
 
 function on ( Looper $looper )
 {
-	return array ( ( strtolower ( name ( $looper ) ) => $looper );
+	$name = strtolower ( name ( $looper ) );
+	return array ( $name => $looper );
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Support\Class;
+namespace Support\Classes;
 
 function name ( $class )
 {

@@ -26,7 +26,8 @@
   	},
 	"autoload-dev": {
     	"psr-4": {
-			"Support\\Tests\\"				: "tests"
+			"Support\\Array\\Tests\\"	: "tests/Arrays",
+			"Support\\Tests\\"			: "tests"
 		}
 	},
 	 "suggest": {

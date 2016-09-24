@@ -10,8 +10,11 @@
          convertWarningsToExceptions="true"
          processIsolation="false"
          stopOnFailure="false">
-    <testsuite name="Support tests">
+    <testsuite name="All">
         <directory>tests</directory>
+    </testsuite>
+    <testsuite name="Arrays">
+        <directory>tests/Arrays</directory>
     </testsuite>
     <filter>
         <whitelist>

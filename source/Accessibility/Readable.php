@@ -1,8 +1,8 @@
 <?php
 
-namespace Support\Accessibility;
+namespace Accessibility;
 
-trait Accessible
+trait Readable
 {
 	public function __get ( $property )
 	{

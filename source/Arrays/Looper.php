@@ -1,6 +1,6 @@
 <?php
 
-namespace Support\Arrays;
+namespace Arrays;
 
 use ArrayIterator;
 use IteratorAggregate;

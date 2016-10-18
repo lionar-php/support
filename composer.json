@@ -19,8 +19,7 @@
 	"autoload": {
     	"psr-4": {
     		"Accessibility\\"	: "source/Accessibility",
-			"Arrays\\"			: "source/Arrays",
-    		"Facades\\"			: "source/Facades"
+			"Arrays\\"			: "source/Arrays"
    	 	},
    	 	"files": [
    	 		"helpers/arrays.php",
@@ -31,8 +30,6 @@
 	"autoload-dev": {
     	"psr-4": {
 			"Arrays\\Tests\\"			: "tests/Arrays",
-    		"Facades\\Tests\\"			: "tests/Facades",
-    		"Facades\\View\\Tests\\"	: "tests/Facades/View",
 			"Support\\Tests\\"			: "tests"
 		}
 	},

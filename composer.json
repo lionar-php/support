@@ -24,7 +24,8 @@
    	 	"files": [
    	 		"helpers/arrays.php",
    	 		"helpers/classes.php",
-   	 		"helpers/serialization.php"
+   	 		"helpers/serialization.php",
+   	 		"helpers/text.php"
    	 	]
   	},
 	"autoload-dev": {

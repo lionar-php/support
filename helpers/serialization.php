@@ -1,6 +1,6 @@
 <?php
 
-namespace Support\Serialization;
+namespace Serialization;
 
 
 /**

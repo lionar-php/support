@@ -1,8 +1,8 @@
 <?php
 
-namespace Support\Arrays;
+namespace Arrays;
 
-use function Support\Classes\name;
+use function Classes\name;
 
 /**
  * Return a copy of a given array without the specified keys.
@@ -22,8 +22,8 @@ function array_except ( array $keys, array $array ) : array
 /**
  * Return all elements of a looper.
  * 
- * @param  Support\Arrays\Looper $looper 	The looper to return all elements from
- * @return Support\Arrays\Looper    		The looper with all elements to loop over selected.
+ * @param  Arrays\Looper $looper 	The looper to return all elements from
+ * @return Arrays\Looper    		The looper with all elements to loop over selected.
  */
 function all ( Looper $looper )
 {

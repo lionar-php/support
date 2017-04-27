@@ -34,7 +34,7 @@
 			"Support\\Tests\\"			: "tests"
 		},
 		"files": [
-   	 		"helpers/debug.php"
+   	 		"helpers/debugging.php"
    	 	]
 	},
 	 "suggest": {

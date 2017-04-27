@@ -32,7 +32,10 @@
     	"psr-4": {
 			"Arrays\\Tests\\"			: "tests/Arrays",
 			"Support\\Tests\\"			: "tests"
-		}
+		},
+		"files": [
+   	 		"helpers/debug.php"
+   	 	]
 	},
 	 "suggest": {
 

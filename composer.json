@@ -1,7 +1,8 @@
 {
 	"name": "lionar/support",
-	"description": "Supporting tools and functions.",
-	"keywords": [ "Lionar", "Component", "Support" ],
+	"version": "0.0.1",
+	"description": "Helpers classes and functions.",
+	"keywords": [ "Lionar", "Support" ],
 	"license": "MIT",
 	"authors": [
 		{
@@ -14,34 +15,26 @@
 
   	},
 	"require-dev": {
-		"lionar/testing": "*"
+		
 	},
 	"autoload": {
     	"psr-4": {
-    		"Accessibility\\"	: "source/Accessibility",
-			"Arrays\\"			: "source/Arrays"
+			"": "source"
    	 	},
    	 	"files": [
-   	 		"helpers/arrays.php",
-   	 		"helpers/classes.php",
-   	 		"helpers/serialization.php",
-   	 		"helpers/text.php"
+   	 		"source/helpers/classes.php",
+   	 		"source/helpers/filesystem.php",
+   	 		"source/helpers/serialization.php",
+   	 		"source/helpers/text.php"
    	 	]
   	},
 	"autoload-dev": {
     	"psr-4": {
-			"Arrays\\Tests\\"			: "tests/Arrays",
-			"Support\\Tests\\"			: "tests"
-		},
-		"files": [
-   	 		"helpers/debugging.php"
-   	 	]
+			
+		}
 	},
-	 "suggest": {
-
-    },
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "stable"
 }

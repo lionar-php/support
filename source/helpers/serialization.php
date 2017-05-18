@@ -1,7 +1,6 @@
 <?php
 
-namespace Serialization;
-
+namespace serialization;
 
 /**
  * Check wether a string is serialized.
